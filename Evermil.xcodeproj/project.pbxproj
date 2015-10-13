@@ -1,0 +1,482 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3AF8D11A152F6400E6578D /* Bloero in Resources */ = {isa = PBXBuildFile; fileRef = 1D3AF8D01A152F6400E6578D /* Bloero */; };
+		1D3AF8E01A152FA100E6578D /* Conclusion Btn_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D3AF8D21A152FA100E6578D /* Conclusion Btn_1.png */; };
+		1D3AF8E11A152FA100E6578D /* Conclusion Btn.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D3AF8D31A152FA100E6578D /* Conclusion Btn.png */; };
+		1D3AF8E21A152FA100E6578D /* Conclusion Popup.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D3AF8D41A152FA100E6578D /* Conclusion Popup.png */; };
+		1D3AF8E51A152FA100E6578D /* Conclusion-Close-Btn-After-Click.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D3AF8D71A152FA100E6578D /* Conclusion-Close-Btn-After-Click.png */; };
+		1D3AF8E61A152FA100E6578D /* Conclusion-Close-Btn.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D3AF8D81A152FA100E6578D /* Conclusion-Close-Btn.png */; };
+		1D3AF8E71A152FA100E6578D /* Dark Bg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1D3AF8D91A152FA100E6578D /* Dark Bg.jpg */; };
+		1D3AF8E81A152FA100E6578D /* Home Btn_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D3AF8DA1A152FA100E6578D /* Home Btn_1.png */; };
+		1D3AF8E91A152FA100E6578D /* Home Btn.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D3AF8DB1A152FA100E6578D /* Home Btn.png */; };
+		1D3AF8EA1A152FA100E6578D /* PFS-Button-After-Click.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D3AF8DC1A152FA100E6578D /* PFS-Button-After-Click.png */; };
+		1D3AF8EB1A152FA100E6578D /* PFS-Button.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D3AF8DD1A152FA100E6578D /* PFS-Button.png */; };
+		1D3AF8EC1A152FA100E6578D /* Pink-Close-Btn-after-Click.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D3AF8DE1A152FA100E6578D /* Pink-Close-Btn-after-Click.png */; };
+		1D3AF8ED1A152FA100E6578D /* Pink-Close-Btn.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D3AF8DF1A152FA100E6578D /* Pink-Close-Btn.png */; };
+		1D6756701A0007CB001F19CE /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D67566E1A0007CB001F19CE /* icon@2x.png */; };
+		1D6756711A0007CB001F19CE /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D67566F1A0007CB001F19CE /* icon.png */; };
+		1D76BBEF1A1FCCE900B7A2A6 /* 4th Btn.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D76BBE71A1FCCE900B7A2A6 /* 4th Btn.png */; };
+		1D76BBF01A1FCCE900B7A2A6 /* 4th Btn_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D76BBE81A1FCCE900B7A2A6 /* 4th Btn_1.png */; };
+		1D76BBF11A1FCCE900B7A2A6 /* 3rd Btn_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D76BBE91A1FCCE900B7A2A6 /* 3rd Btn_1.png */; };
+		1D76BBF21A1FCCE900B7A2A6 /* 3rd Btn.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D76BBEA1A1FCCE900B7A2A6 /* 3rd Btn.png */; };
+		1D76BBF31A1FCCE900B7A2A6 /* 2nd Btn_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D76BBEB1A1FCCE900B7A2A6 /* 2nd Btn_1.png */; };
+		1D76BBF41A1FCCE900B7A2A6 /* 2nd Btn.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D76BBEC1A1FCCE900B7A2A6 /* 2nd Btn.png */; };
+		1D76BBF51A1FCCE900B7A2A6 /* 1st Btn_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D76BBED1A1FCCE900B7A2A6 /* 1st Btn_1.png */; };
+		1D76BBF61A1FCCE900B7A2A6 /* 1st Btn.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D76BBEE1A1FCCE900B7A2A6 /* 1st Btn.png */; };
+		1DB5B5D21932487F004A5A5B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DB5B5D11932487F004A5A5B /* UIKit.framework */; };
+		1DB5B5D41932487F004A5A5B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DB5B5D31932487F004A5A5B /* Foundation.framework */; };
+		1DB5B5D61932487F004A5A5B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DB5B5D51932487F004A5A5B /* CoreGraphics.framework */; };
+		1DB5B5DC1932487F004A5A5B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1DB5B5DA1932487F004A5A5B /* InfoPlist.strings */; };
+		1DB5B5DE1932487F004A5A5B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DB5B5DD1932487F004A5A5B /* main.m */; };
+		1DB5B5E21932487F004A5A5B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DB5B5E11932487F004A5A5B /* AppDelegate.m */; };
+		1DB5B5F219324D33004A5A5B /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DB5B5F019324D33004A5A5B /* FirstViewController.m */; };
+		1DB5B5F319324D33004A5A5B /* FirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DB5B5F119324D33004A5A5B /* FirstViewController.xib */; };
+		1DDB77DD1A59B90000A09F5D /* Blank Page.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1DDB77DA1A59B90000A09F5D /* Blank Page.jpg */; };
+		1DDB77DE1A59B90000A09F5D /* Language Btn.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DDB77DB1A59B90000A09F5D /* Language Btn.png */; };
+		1DDB77DF1A59B90000A09F5D /* video icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DDB77DC1A59B90000A09F5D /* video icon.png */; };
+		1DDB77E21A59BA5500A09F5D /* Language Page.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1DDB77E11A59BA5500A09F5D /* Language Page.jpg */; };
+		1DDB77EC1A59BE7600A09F5D /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DDB77EB1A59BE7600A09F5D /* MediaPlayer.framework */; };
+		9C8F64021BC6B8C900867274 /* Evermil_English.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 9C8F64001BC6B8C900867274 /* Evermil_English.mp4 */; };
+		9C8F64031BC6B8C900867274 /* evermil_hindi.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 9C8F64011BC6B8C900867274 /* evermil_hindi.mp4 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D3AF8D01A152F6400E6578D /* Bloero */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Bloero; sourceTree = "<group>"; };
+		1D3AF8D21A152FA100E6578D /* Conclusion Btn_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Conclusion Btn_1.png"; sourceTree = "<group>"; };
+		1D3AF8D31A152FA100E6578D /* Conclusion Btn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Conclusion Btn.png"; sourceTree = "<group>"; };
+		1D3AF8D41A152FA100E6578D /* Conclusion Popup.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Conclusion Popup.png"; sourceTree = "<group>"; };
+		1D3AF8D71A152FA100E6578D /* Conclusion-Close-Btn-After-Click.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Conclusion-Close-Btn-After-Click.png"; sourceTree = "<group>"; };
+		1D3AF8D81A152FA100E6578D /* Conclusion-Close-Btn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Conclusion-Close-Btn.png"; sourceTree = "<group>"; };
+		1D3AF8D91A152FA100E6578D /* Dark Bg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Dark Bg.jpg"; sourceTree = "<group>"; };
+		1D3AF8DA1A152FA100E6578D /* Home Btn_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Home Btn_1.png"; sourceTree = "<group>"; };
+		1D3AF8DB1A152FA100E6578D /* Home Btn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Home Btn.png"; sourceTree = "<group>"; };
+		1D3AF8DC1A152FA100E6578D /* PFS-Button-After-Click.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PFS-Button-After-Click.png"; sourceTree = "<group>"; };
+		1D3AF8DD1A152FA100E6578D /* PFS-Button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PFS-Button.png"; sourceTree = "<group>"; };
+		1D3AF8DE1A152FA100E6578D /* Pink-Close-Btn-after-Click.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pink-Close-Btn-after-Click.png"; sourceTree = "<group>"; };
+		1D3AF8DF1A152FA100E6578D /* Pink-Close-Btn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pink-Close-Btn.png"; sourceTree = "<group>"; };
+		1D67566E1A0007CB001F19CE /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon@2x.png"; sourceTree = "<group>"; };
+		1D67566F1A0007CB001F19CE /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		1D76BBE71A1FCCE900B7A2A6 /* 4th Btn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "4th Btn.png"; sourceTree = "<group>"; };
+		1D76BBE81A1FCCE900B7A2A6 /* 4th Btn_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "4th Btn_1.png"; sourceTree = "<group>"; };
+		1D76BBE91A1FCCE900B7A2A6 /* 3rd Btn_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "3rd Btn_1.png"; sourceTree = "<group>"; };
+		1D76BBEA1A1FCCE900B7A2A6 /* 3rd Btn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "3rd Btn.png"; sourceTree = "<group>"; };
+		1D76BBEB1A1FCCE900B7A2A6 /* 2nd Btn_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "2nd Btn_1.png"; sourceTree = "<group>"; };
+		1D76BBEC1A1FCCE900B7A2A6 /* 2nd Btn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "2nd Btn.png"; sourceTree = "<group>"; };
+		1D76BBED1A1FCCE900B7A2A6 /* 1st Btn_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "1st Btn_1.png"; sourceTree = "<group>"; };
+		1D76BBEE1A1FCCE900B7A2A6 /* 1st Btn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "1st Btn.png"; sourceTree = "<group>"; };
+		1DB5B5CD1932487F004A5A5B /* Evermil.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Evermil.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DB5B5D11932487F004A5A5B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		1DB5B5D31932487F004A5A5B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1DB5B5D51932487F004A5A5B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		1DB5B5D91932487F004A5A5B /* Evermil-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Evermil-Info.plist"; sourceTree = "<group>"; };
+		1DB5B5DB1932487F004A5A5B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1DB5B5DD1932487F004A5A5B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1DB5B5DF1932487F004A5A5B /* Evermil-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Evermil-Prefix.pch"; sourceTree = "<group>"; };
+		1DB5B5E01932487F004A5A5B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1DB5B5E11932487F004A5A5B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1DB5B5EF19324D33004A5A5B /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		1DB5B5F019324D33004A5A5B /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		1DB5B5F119324D33004A5A5B /* FirstViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FirstViewController.xib; sourceTree = "<group>"; };
+		1DDB77DA1A59B90000A09F5D /* Blank Page.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Blank Page.jpg"; sourceTree = "<group>"; };
+		1DDB77DB1A59B90000A09F5D /* Language Btn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Language Btn.png"; sourceTree = "<group>"; };
+		1DDB77DC1A59B90000A09F5D /* video icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "video icon.png"; sourceTree = "<group>"; };
+		1DDB77E11A59BA5500A09F5D /* Language Page.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Language Page.jpg"; sourceTree = "<group>"; };
+		1DDB77EB1A59BE7600A09F5D /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		9C8F64001BC6B8C900867274 /* Evermil_English.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Evermil_English.mp4; sourceTree = "<group>"; };
+		9C8F64011BC6B8C900867274 /* evermil_hindi.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = evermil_hindi.mp4; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1DB5B5CA1932487F004A5A5B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DDB77EC1A59BE7600A09F5D /* MediaPlayer.framework in Frameworks */,
+				1DB5B5D21932487F004A5A5B /* UIKit.framework in Frameworks */,
+				1DB5B5D41932487F004A5A5B /* Foundation.framework in Frameworks */,
+				1DB5B5D61932487F004A5A5B /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1DB5B5C21932487F004A5A5B = {
+			isa = PBXGroup;
+			children = (
+				1DDB77F61A59C22F00A09F5D /* Videos */,
+				1DDB77EB1A59BE7600A09F5D /* MediaPlayer.framework */,
+				1D3AF8D01A152F6400E6578D /* Bloero */,
+				1DEF238C1A04C32100F495D7 /* Images */,
+				1DB5B5EF19324D33004A5A5B /* FirstViewController.h */,
+				1DB5B5F019324D33004A5A5B /* FirstViewController.m */,
+				1DB5B5F119324D33004A5A5B /* FirstViewController.xib */,
+				1DB5B5D71932487F004A5A5B /* SampleProject */,
+				1DB5B5D01932487F004A5A5B /* Frameworks */,
+				1DB5B5CE1932487F004A5A5B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1DB5B5CE1932487F004A5A5B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1DB5B5CD1932487F004A5A5B /* Evermil.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1DB5B5D01932487F004A5A5B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1DB5B5D11932487F004A5A5B /* UIKit.framework */,
+				1DB5B5D31932487F004A5A5B /* Foundation.framework */,
+				1DB5B5D51932487F004A5A5B /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1DB5B5D71932487F004A5A5B /* SampleProject */ = {
+			isa = PBXGroup;
+			children = (
+				1D67566E1A0007CB001F19CE /* icon@2x.png */,
+				1D67566F1A0007CB001F19CE /* icon.png */,
+				1DB5B5E01932487F004A5A5B /* AppDelegate.h */,
+				1DB5B5E11932487F004A5A5B /* AppDelegate.m */,
+				1DB5B5D81932487F004A5A5B /* Supporting Files */,
+			);
+			path = SampleProject;
+			sourceTree = "<group>";
+		};
+		1DB5B5D81932487F004A5A5B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1DB5B5D91932487F004A5A5B /* Evermil-Info.plist */,
+				1DB5B5DA1932487F004A5A5B /* InfoPlist.strings */,
+				1DB5B5DD1932487F004A5A5B /* main.m */,
+				1DB5B5DF1932487F004A5A5B /* Evermil-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1DDB77F61A59C22F00A09F5D /* Videos */ = {
+			isa = PBXGroup;
+			children = (
+				9C8F64001BC6B8C900867274 /* Evermil_English.mp4 */,
+				9C8F64011BC6B8C900867274 /* evermil_hindi.mp4 */,
+			);
+			name = Videos;
+			sourceTree = "<group>";
+		};
+		1DEF238C1A04C32100F495D7 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				1DDB77E11A59BA5500A09F5D /* Language Page.jpg */,
+				1DDB77DA1A59B90000A09F5D /* Blank Page.jpg */,
+				1DDB77DB1A59B90000A09F5D /* Language Btn.png */,
+				1DDB77DC1A59B90000A09F5D /* video icon.png */,
+				1D76BBE71A1FCCE900B7A2A6 /* 4th Btn.png */,
+				1D76BBE81A1FCCE900B7A2A6 /* 4th Btn_1.png */,
+				1D76BBE91A1FCCE900B7A2A6 /* 3rd Btn_1.png */,
+				1D76BBEA1A1FCCE900B7A2A6 /* 3rd Btn.png */,
+				1D76BBEB1A1FCCE900B7A2A6 /* 2nd Btn_1.png */,
+				1D76BBEC1A1FCCE900B7A2A6 /* 2nd Btn.png */,
+				1D76BBED1A1FCCE900B7A2A6 /* 1st Btn_1.png */,
+				1D76BBEE1A1FCCE900B7A2A6 /* 1st Btn.png */,
+				1D3AF8D21A152FA100E6578D /* Conclusion Btn_1.png */,
+				1D3AF8D31A152FA100E6578D /* Conclusion Btn.png */,
+				1D3AF8D41A152FA100E6578D /* Conclusion Popup.png */,
+				1D3AF8D71A152FA100E6578D /* Conclusion-Close-Btn-After-Click.png */,
+				1D3AF8D81A152FA100E6578D /* Conclusion-Close-Btn.png */,
+				1D3AF8D91A152FA100E6578D /* Dark Bg.jpg */,
+				1D3AF8DA1A152FA100E6578D /* Home Btn_1.png */,
+				1D3AF8DB1A152FA100E6578D /* Home Btn.png */,
+				1D3AF8DC1A152FA100E6578D /* PFS-Button-After-Click.png */,
+				1D3AF8DD1A152FA100E6578D /* PFS-Button.png */,
+				1D3AF8DE1A152FA100E6578D /* Pink-Close-Btn-after-Click.png */,
+				1D3AF8DF1A152FA100E6578D /* Pink-Close-Btn.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1DB5B5CC1932487F004A5A5B /* Evermil */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DB5B5E51932487F004A5A5B /* Build configuration list for PBXNativeTarget "Evermil" */;
+			buildPhases = (
+				1DB5B5C91932487F004A5A5B /* Sources */,
+				1DB5B5CA1932487F004A5A5B /* Frameworks */,
+				1DB5B5CB1932487F004A5A5B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Evermil;
+			productName = SampleProject;
+			productReference = 1DB5B5CD1932487F004A5A5B /* Evermil.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1DB5B5C41932487F004A5A5B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = DemoTest;
+			};
+			buildConfigurationList = 1DB5B5C71932487F004A5A5B /* Build configuration list for PBXProject "Evermil" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1DB5B5C21932487F004A5A5B;
+			productRefGroup = 1DB5B5CE1932487F004A5A5B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1DB5B5CC1932487F004A5A5B /* Evermil */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1DB5B5CB1932487F004A5A5B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D3AF8D11A152F6400E6578D /* Bloero in Resources */,
+				1DB5B5DC1932487F004A5A5B /* InfoPlist.strings in Resources */,
+				1DB5B5F319324D33004A5A5B /* FirstViewController.xib in Resources */,
+				1D6756701A0007CB001F19CE /* icon@2x.png in Resources */,
+				1D6756711A0007CB001F19CE /* icon.png in Resources */,
+				1D3AF8E01A152FA100E6578D /* Conclusion Btn_1.png in Resources */,
+				1D3AF8E11A152FA100E6578D /* Conclusion Btn.png in Resources */,
+				9C8F64021BC6B8C900867274 /* Evermil_English.mp4 in Resources */,
+				1D3AF8E21A152FA100E6578D /* Conclusion Popup.png in Resources */,
+				1D3AF8E51A152FA100E6578D /* Conclusion-Close-Btn-After-Click.png in Resources */,
+				1D3AF8E61A152FA100E6578D /* Conclusion-Close-Btn.png in Resources */,
+				1D3AF8E71A152FA100E6578D /* Dark Bg.jpg in Resources */,
+				1D3AF8E81A152FA100E6578D /* Home Btn_1.png in Resources */,
+				1D3AF8E91A152FA100E6578D /* Home Btn.png in Resources */,
+				1D3AF8EA1A152FA100E6578D /* PFS-Button-After-Click.png in Resources */,
+				1D3AF8EB1A152FA100E6578D /* PFS-Button.png in Resources */,
+				1D3AF8EC1A152FA100E6578D /* Pink-Close-Btn-after-Click.png in Resources */,
+				1D3AF8ED1A152FA100E6578D /* Pink-Close-Btn.png in Resources */,
+				1D76BBEF1A1FCCE900B7A2A6 /* 4th Btn.png in Resources */,
+				1D76BBF01A1FCCE900B7A2A6 /* 4th Btn_1.png in Resources */,
+				9C8F64031BC6B8C900867274 /* evermil_hindi.mp4 in Resources */,
+				1D76BBF11A1FCCE900B7A2A6 /* 3rd Btn_1.png in Resources */,
+				1D76BBF21A1FCCE900B7A2A6 /* 3rd Btn.png in Resources */,
+				1D76BBF31A1FCCE900B7A2A6 /* 2nd Btn_1.png in Resources */,
+				1D76BBF41A1FCCE900B7A2A6 /* 2nd Btn.png in Resources */,
+				1D76BBF51A1FCCE900B7A2A6 /* 1st Btn_1.png in Resources */,
+				1D76BBF61A1FCCE900B7A2A6 /* 1st Btn.png in Resources */,
+				1DDB77DD1A59B90000A09F5D /* Blank Page.jpg in Resources */,
+				1DDB77DE1A59B90000A09F5D /* Language Btn.png in Resources */,
+				1DDB77DF1A59B90000A09F5D /* video icon.png in Resources */,
+				1DDB77E21A59BA5500A09F5D /* Language Page.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1DB5B5C91932487F004A5A5B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DB5B5DE1932487F004A5A5B /* main.m in Sources */,
+				1DB5B5E21932487F004A5A5B /* AppDelegate.m in Sources */,
+				1DB5B5F219324D33004A5A5B /* FirstViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1DB5B5DA1932487F004A5A5B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1DB5B5DB1932487F004A5A5B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1DB5B5E31932487F004A5A5B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Unovation Digital Technologies Pvt. Ltd.";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Unovation Digital Technologies Pvt. Ltd.";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				PROVISIONING_PROFILE = "b99a2be3-63f3-4109-8145-47afe42bc841";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "b99a2be3-63f3-4109-8145-47afe42bc841";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		1DB5B5E41932487F004A5A5B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Unovation Digital Technologies Pvt. Ltd.";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Unovation Digital Technologies Pvt. Ltd.";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "b99a2be3-63f3-4109-8145-47afe42bc841";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "b99a2be3-63f3-4109-8145-47afe42bc841";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1DB5B5E61932487F004A5A5B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_ENTITLEMENTS[sdk=*]" = "";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Unovation Digital Technologies Pvt. Ltd.";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Unovation Digital Technologies Pvt. Ltd.";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SampleProject/Evermil-Prefix.pch";
+				INFOPLIST_FILE = "SampleProject/Evermil-Info.plist";
+				PRODUCT_NAME = Evermil;
+				PROVISIONING_PROFILE = "b99a2be3-63f3-4109-8145-47afe42bc841";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "b99a2be3-63f3-4109-8145-47afe42bc841";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		1DB5B5E71932487F004A5A5B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_ENTITLEMENTS[sdk=*]" = "";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Unovation Digital Technologies Pvt. Ltd.";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Unovation Digital Technologies Pvt. Ltd.";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SampleProject/Evermil-Prefix.pch";
+				INFOPLIST_FILE = "SampleProject/Evermil-Info.plist";
+				PRODUCT_NAME = Evermil;
+				PROVISIONING_PROFILE = "b99a2be3-63f3-4109-8145-47afe42bc841";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "b99a2be3-63f3-4109-8145-47afe42bc841";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		1DEF237C1A04A3DB00F495D7 /* Ad-Hoc */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Unovation Digital Technologies Pvt. Ltd.";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Unovation Digital Technologies Pvt. Ltd.";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				PROVISIONING_PROFILE = "b99a2be3-63f3-4109-8145-47afe42bc841";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "b99a2be3-63f3-4109-8145-47afe42bc841";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = "Ad-Hoc";
+		};
+		1DEF237D1A04A3DB00F495D7 /* Ad-Hoc */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_ENTITLEMENTS[sdk=*]" = "";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Unovation Digital Technologies Pvt. Ltd.";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Unovation Digital Technologies Pvt. Ltd.";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SampleProject/Evermil-Prefix.pch";
+				INFOPLIST_FILE = "SampleProject/Evermil-Info.plist";
+				PRODUCT_NAME = Evermil;
+				PROVISIONING_PROFILE = "b99a2be3-63f3-4109-8145-47afe42bc841";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "b99a2be3-63f3-4109-8145-47afe42bc841";
+				WRAPPER_EXTENSION = app;
+			};
+			name = "Ad-Hoc";
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DB5B5C71932487F004A5A5B /* Build configuration list for PBXProject "Evermil" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DB5B5E31932487F004A5A5B /* Debug */,
+				1DEF237C1A04A3DB00F495D7 /* Ad-Hoc */,
+				1DB5B5E41932487F004A5A5B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DB5B5E51932487F004A5A5B /* Build configuration list for PBXNativeTarget "Evermil" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DB5B5E61932487F004A5A5B /* Debug */,
+				1DEF237D1A04A3DB00F495D7 /* Ad-Hoc */,
+				1DB5B5E71932487F004A5A5B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1DB5B5C41932487F004A5A5B /* Project object */;
+}
